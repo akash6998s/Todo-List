@@ -1,0 +1,25 @@
+/* App.css */
+
+body {
+  background-color: #f7fafc;
+}
+
+form {
+  background-color: #fff;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4299e1;
+}
+
+input, textarea {
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
